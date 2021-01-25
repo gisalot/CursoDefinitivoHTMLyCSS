@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.foodhome  {
+    width: 100%;
+    display: inline;
+  
+}
+.foodhome img{
+    max-width: 600px;
+    min-height: 300px;
+}
+.text {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.comidas {
+    width: 400px;
+    display: inline-block;
+}

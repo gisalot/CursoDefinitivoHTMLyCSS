@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color:rgb(155, 155, 28);
+    height: 10vh;
+}
+.header__logo, .nav, .nav__list li {
+    display: inline-block;
+    margin: 5px;
+}
+#games {
+    margin-left: 100px;
+    width: 200px;
+    height: 80px;
+}
+.nav {
+    position: absolute;
+    right: 0%;
+}
+.nav__list li a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    height: 85vh;
+    background-color: rgb(192, 192, 192);
+}
+.routes {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    background-color: blue;
+    
+}
+.routes__images img {
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 400px;
+    height: 180px;
+   
+}
+.content {
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    height: 5vh;
+    background-color:rgb(155, 155, 28);
+}
+

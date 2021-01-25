@@ -1,0 +1,23 @@
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    margin-bottom: 0;
+}
+.content p {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+}
+.comidas{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.comidas section {
+     
+    margin: auto;
+}
